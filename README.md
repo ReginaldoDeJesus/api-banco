@@ -13,12 +13,12 @@ classDiagram
     class Account {
         - number: string
         - agency: string
-        - balance: float
-        - limit: float
+        - balance: BigInteger
+        - limit: BigInteger
         + getNumber(): string
         + getAgency(): string
-        + getBalance(): float
-        + getLimit(): float
+        + getBalance(): BigInteger
+        + getLimit(): BigInteger
     }
 
     class Feature {
@@ -30,9 +30,9 @@ classDiagram
 
     class Card {
         - number: string
-        - limit: float
+        - limit: Biginteger
         + getNumber(): string
-        + getLimit(): float
+        + getLimit(): BigInteger
     }
 
     class News {
@@ -42,8 +42,8 @@ classDiagram
         + getDescription(): string
     }
 
-    User "1" -- "1" Account : has
-    User "1" -- "*" Feature : has
-    User "1" -- "1" Card : has
-    User "1" -- "*" News : has 
+    User "1" *-- "1" Account : has
+    User "1" *-- "N" Feature : has
+    User "1" *-- "1" Card : has
+    User "1" *-- "N" News : has 
     ```
