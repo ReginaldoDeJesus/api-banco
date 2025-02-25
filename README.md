@@ -1,5 +1,13 @@
 # Projeto de API Rest de uma página de Banco
 
+Projeto de uma API de um Banco
+
+
+## Tecnologias Usadas:
+-[x] Java 17
+-[x] Spring Boot 3
+-[x] Spring Data JPA
+
 
 ## Diagrama de Classes
 
