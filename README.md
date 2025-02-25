@@ -4,9 +4,9 @@ Projeto de uma API de um Banco
 
 
 ## Tecnologias Usadas:
--[x] Java 17
--[x] Spring Boot 3
--[x] Spring Data JPA
+- [x] Java 17
+- [x] Spring Boot 3
+- [x] Spring Data JPA
 
 
 ## Diagrama de Classes
